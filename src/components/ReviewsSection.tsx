@@ -16,20 +16,20 @@ const reviews = [
     text: "Excellent service from start to finish! Arkshakti Power provided outstanding support and professional installation.",
   },
   {
-    name: "Vikash",
-    fullName: "Vikash Sharma",
-    date: "19/11/2025",
-    rating: 5,
-    image: reviwer2,
-    text: "I'm very happy with the quality and performance of my solar system. The team was professional, polite, and answered all my questions. Great experience!",
-  },
-  {
     name: "Manoj Varma",
     fullName: "Manoj Varma",
     date: "18/11/2025",
     rating: 4,
-    image: reviwer3,
+    image: reviwer2,
     text: "Superb service and quality installation. The technician explained everything clearly and completed work on time.",
+  },
+  {
+    name: "Vikash",
+    fullName: "Vikash Sharma",
+    date: "19/11/2025",
+    rating: 5,
+    image: reviwer3,
+    text: "I'm very happy with the quality and performance of my solar system. The team was professional, polite, and answered all my questions. Great experience!",
   },
 ];
 

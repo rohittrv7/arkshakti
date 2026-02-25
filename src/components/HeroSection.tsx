@@ -8,8 +8,8 @@ import {
 } from "@/components/ui/carousel";
 
 import heroImage from "@/assets/hero-solar.jpeg";
-import solarCommercial from "@/assets/img2.jpeg";
-import solarResidential from "@/assets/img3.webp";
+import solarCommercial from "@/assets/img1.jpg.jpeg";
+import solarResidential from "@/assets/img3.avif";
 
 const slides = [heroImage, solarCommercial, solarResidential];
 
