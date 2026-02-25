@@ -8,7 +8,7 @@ import reviwer3 from "@/assets/img10.webp";
 
 const reviews = [
   {
-    name: "Aryan",
+    name: "Aryan Mishra",
     fullName: "Aryan Mishra",
     date: "20/10/2025",
     rating: 4,
@@ -16,15 +16,15 @@ const reviews = [
     text: "Excellent service from start to finish! Arkshakti Power provided outstanding support and professional installation.",
   },
   {
-    name: "Manoj Varma",
-    fullName: "Manoj Varma",
+    name: "Manoj Verma",
+    fullName: "Manoj Verma",
     date: "18/11/2025",
     rating: 4,
     image: reviwer2,
     text: "Superb service and quality installation. The technician explained everything clearly and completed work on time.",
   },
   {
-    name: "Vikash",
+    name: "Vikash Sharma",
     fullName: "Vikash Sharma",
     date: "19/11/2025",
     rating: 5,
