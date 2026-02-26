@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { Sun, ArrowDown } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 
 import heroVideo from "@/assets/arkshakti.mp4"; // <-- apna video yaha import karo
 
