@@ -25,7 +25,7 @@ const services = [
       "In the event of a power outage, our battery backup systems will keep your business running. Never be left in the dark again.",
   },
   {
-    title: "Solar Panel Financing",
+    title: "Solar System Financing",
     image: serviceFinancing,
     description:
       "We offer flexible financing options to make solar energy more accessible to businesses. Contact us to learn about our financing plans.",

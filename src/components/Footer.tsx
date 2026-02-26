@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Youtube } from "lucide-react";
+import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-black text-white py-16">
@@ -30,6 +30,15 @@ const Footer = () => (
           className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-solar-gold hover:text-black transition"
         >
           <Youtube className="w-5 h-5" />
+        </a>
+
+        <a
+          href="https://x.com/Arkshaktipower"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-solar-gold hover:text-black transition"
+        >
+          <Twitter className="w-5 h-5" />
         </a>
       </div>
 

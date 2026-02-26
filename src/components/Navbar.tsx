@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Phone, Menu, X } from "lucide-react";
+import { Phone, Menu, X, Sun } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 type NavbarProps = {
@@ -41,6 +41,12 @@ const Navbar = ({ setOpen }: NavbarProps) => {
               Arkshakti Power Solutions
             </p>
             <p className="text-xs text-muted-foreground">PVT. LTD.</p>
+            <div className="inline-flex items-center gap-2 py-1.5">
+              <Sun className="w-4 h-4 text-yellow-400" />
+              <span className="text-sm font-semibold">
+                शुद्धशक्तिः सूर्यप्रदा
+              </span>
+            </div>
           </div>
         </a>
 

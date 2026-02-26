@@ -26,7 +26,7 @@ const ContactSection = () => (
         </div>
         <div className="flex items-center justify-center gap-2">
           <Phone className="w-4 h-4 shrink-0" />
-          <span>+91.7014118900</span>
+          <span>+91.7014118900, +917014179901</span>
         </div>
         <div className="mt-4">
           <h4 className="font-semibold text-foreground">Hours</h4>
