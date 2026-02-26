@@ -7,7 +7,7 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 
-import heroImage from "@/assets/hero-solar.jpeg";
+import heroImage from "@/assets/image22.png";
 import solarCommercial from "@/assets/img1.jpg.jpeg";
 import solarResidential from "@/assets/img3.avif";
 
