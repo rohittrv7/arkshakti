@@ -4,6 +4,7 @@ export default function GirlfriendSorry() {
   const [yesSize, setYesSize] = useState(1);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [accepted, setAccepted] = useState(false);
+  console.log(yesSize, position);
 
   const moveNoButton = () => {
     const randomX = Math.random() * 200 - 100;
