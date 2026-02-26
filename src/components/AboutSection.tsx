@@ -3,6 +3,8 @@ import companyImg3 from "@/assets/img11.webp";
 import companyImg2 from "@/assets/img13.webp";
 import { MapPin, Star } from "lucide-react";
 
+import image12 from "@/assets/image12.jpeg"; // <-- apna video yaha import karo
+
 const AboutSection = () => (
   <section id="about" className="section-padding bg-background">
     <div className="container mx-auto">
@@ -47,12 +49,24 @@ const AboutSection = () => (
       {/* Row 2: Approved info left, card right */}
       <div className="grid md:grid-cols-2 gap-8 mb-12">
         <div>
-          <h3 className="font-heading text-lg md:text-xl font-bold text-foreground mb-3">
-            APPROVED BY ( नवीन एवं नवीकरणीय ऊर्जा मंत्रालय )
-          </h3>
-          <p className="font-bold text-foreground text-sm mb-4">
-            MINISTRY OF NEW AND RENEWABLE ENERGY
-          </p>
+          <div className="flex items-center gap-3 mb-3">
+            <div>
+              <img
+                src={image12}
+                alt="Family with solar panels"
+                className=" h-20 w-20 rounded"
+              />
+            </div>
+            <div>
+              <h3 className="font-heading text-lg md:text-xl font-bold text-foreground mb-3">
+                APPROVED BY ( नवीन एवं नवीकरणीय ऊर्जा मंत्रालय )
+              </h3>
+              <p className="font-bold text-foreground text-sm mb-4">
+                MINISTRY OF NEW AND RENEWABLE ENERGY
+              </p>
+            </div>
+            
+          </div>
           <div className="space-y-3 text-sm text-foreground">
             <div className="flex items-start gap-2">
               <Star className="w-4 h-4 text-accent mt-0.5 shrink-0" />
